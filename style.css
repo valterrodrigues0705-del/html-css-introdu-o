@@ -1,0 +1,186 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 40px;
+    border-bottom: 1px solid #dbdbdb;
+}
+#logo{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin-top: -80px;
+    margin-left: 30px;
+    margin-bottom: -70px;
+}
+.actions{
+    position: relative;
+    left: 0px;
+}
+#login{
+    background-color: #0095f6;
+    color: white;
+    font-size: 14px;
+    border-radius: 8px
+}
+#signup{
+    color: rgb(0, 8, 255);
+    background-color: transparent;
+    font-size: 14px;
+    border-radius: 8px    
+}
+#conteudo{
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+}
+.section{
+    width: 900px;
+}
+#cabecalho{
+    height: 300px;
+    display: flex;
+}
+#perfil{
+    width: 1000px;
+    height: 160px;
+    padding: 24px 105px 5px 105px;
+}
+#fotodeperfil{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 160px;
+        height: 160px;
+    }
+}
+
+img{
+    border-radius: 50%;
+    object-fit: cover;
+}
+#textodeperfil{
+    width: 600px;
+    height: 300px;
+    box-sizing: border-box;
+    padding: 20px 70px;
+    h1{
+    font-family: "UnifrakturMaguntia",cursive;
+    font-size: 2em;
+    font-weight: 700;
+    font-style: normal;
+    }
+}
+#usarname{
+    font-style: initial;
+    font-weight: 100;
+}
+.seguidores{
+    margin-right: 45px;
+    padding-left: 5px;
+    font-weight: 300;
+}
+
+#bio{
+    padding-left: 15px;
+}
+#threads{
+    margin: 0;
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+#threads-icone{
+    margin-left: -1px;
+    margin-bottom: -15px;
+    margin-top: -15px;
+    border-radius: 15px;
+    padding: 3px;
+    img{
+    position: relative;
+    top: 3px;
+    left: 3px;}
+}
+
+#texto-bio{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column
+}
+#texto-bio{
+    list-style-type: none;
+    display: flex;
+    margin-left: -15px;
+    margin-top: 1px;
+}
+.lista{
+    font-size: 15px;
+}
+#icone-link{
+    height: 20px;
+    width: 20px;
+    background-size: 20px;
+    background-image: url('icone-link.png');
+}
+
+#bio-link{
+    display: flex;
+    width: max-content;
+    margin-left: 5.3px;
+    margin-top: -18px;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#destaques{
+    width: 200px;
+    height: 600px;
+    display: flex;
+    float: left;
+    position: relative;
+    flex-direction: column;
+    overflow: hidden;
+    overflow-y: scroll;
+    img{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.destaque{
+    height: 200px;
+    width: 150px;
+    padding: 33px 25px;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: 600;
+}
+
+#feed{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    float: right;
+    height: 575px;
+    width: 1090px;
+    img{
+        height: 118px;
+        width: 210px;
+    }
+}
+.post{
+    height: 118px;
+    width: 210px;
+    border-radius: 0%;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
