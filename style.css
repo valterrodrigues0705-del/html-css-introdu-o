@@ -41,10 +41,11 @@
     height: 300px;
     display: flex;
 }
-#perfil{
+.perfil{
     width: 1000px;
     height: 160px;
-    padding: 24px 105px 5px 105px;
+    float: right;
+    
 }
 #fotodeperfil{
     width: 300px;
@@ -52,6 +53,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+   float: right;
     img{
         width: 160px;
         height: 160px;
@@ -67,6 +69,7 @@ img{
     height: 300px;
     box-sizing: border-box;
     padding: 20px 70px;
+    float: right;
     h1{
     font-family: "UnifrakturMaguntia",cursive;
     font-size: 2em;
@@ -163,11 +166,12 @@ img{
 #feed{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     float: right;
     height: 575px;
-    width: 1090px;
+    width: 1000px;
+    margin-top: 100px;
     img{
         height: 118px;
         width: 210px;
