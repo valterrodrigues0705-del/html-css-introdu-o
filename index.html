@@ -3,117 +3,494 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
-    <title>instagram</title>
+
+    <title>Digital College - YouTube</title>
 </head>
+
 <body>
+
+    <!-- TOPO -->
     <header id="header">
-        <div><a id="logo" href="https://instagram.com"><img id="log" src="logo-instagram-4096.png" alt="logo"></a></div>
-        <div class="actions">
-            <button id="login"><a href="https://www.instagram.com/">Entrar</a></button>
-            <button id="signup"><a href="https://www.instagram.com/accounts/emailsignup/">Cadastre-se</a></button>
+
+        <div class="header-left">
+
+            <button class="menu-button">
+                ☰
+            </button>
+
+            <a href="#" class="youtube-logo">
+                <span class="youtube-icon">▶</span>
+                <span class="youtube-text">YouTube</span>
+            </a>
+
         </div>
-  </header>
-   <div class="section" id="conteudo">
-       <div class="perfil">
-            <div class="section" id="cabecalho">
-            <div id="fotodeperfil">
-                <img src="imagens/924126.jpg" alt="allen">
+
+
+        <!-- BUSCA -->
+        <div class="search-area">
+
+            <div class="search-box">
+
+                <input
+                    type="text"
+                    placeholder="Pesquisar"
+                >
+
+                <button class="search-button">
+                    🔍
+                </button>
+
             </div>
-            <div id="textodeperfil">
-                <h1 id="usarname">Digitalcollegebr</h1>
-                <div>
-                  <p><strong>64,7 mil</strong><span class="seguidores">seguidores</span> <strong>3.009</strong><span class="seguidores">seguindo</span></p>
+
+            <button class="microfone">
+                🎤
+            </button>
+
+        </div>
+
+
+        <!-- AÇÕES -->
+        <div class="header-actions">
+
+            <button class="create-button">
+                + Criar
+            </button>
+
+            <button class="notification">
+                🔔
+            </button>
+
+            <img
+                src="imagens/924126.jpg"
+                class="mini-profile"
+                alt="perfil"
+            >
+
+        </div>
+
+    </header>
+<aside id="sidebar">
+
+    <!-- CONTEÚDO PRINCIPAL -->
+
+    <main id="conteudo">
+
+
+        <!-- BANNER -->
+
+        <section class="banner">
+
+            <img
+                src="imagens/120190.png"
+                alt="Banner Digital College"
+            >
+
+        </section>
+
+
+
+        <!-- INFORMAÇÕES DO CANAL -->
+
+        <section class="channel-info">
+
+
+            <div class="channel-profile">
+
+                <img
+                    src="imagens/924126.jpg"
+                    alt="Digital College"
+                    class="profile-image"
+                >
+
+            </div>
+
+
+            <div class="channel-text">
+
+                <h1>Digital College</h1>
+
+
+                <div class="channel-stats">
+
+                    <strong>@digitalcollegebr</strong>
+
+                    <span>•</span>
+
+                    <span>64,7 mil inscritos</span>
+
+                    <span>•</span>
+
+                    <span>352 vídeos</span>
+
                 </div>
-                <div class="seguidores">
-                  <p><strong>> Digital College • Fortaleza/CE _</strong></p>
-                </div>
-            <div id="thread">
-                <p id="threads">
-                <span id="threads-icone">
-                    <img src="threads-logo.png" alt="thread" height="16px"> digitalcollegebr
-                </span>
+
+
+                <p class="description">
+                    🏆 Maior escola de IA e habilidades digitais do Brasil.
+                    + de 10.000 alunos atendidos.
                 </p>
-                <ul id="texto-bio">
-                    <li class="lista">🏆| Maior escola de IA e habilidades digitais do Brasil.</li>
-                    <li class="lista">🧑‍💻| + de 10000 alunos atendidos.</li>
-                    <li class="lista">🤝| + 80% de empregabilidade.</li>
-                    <li class="lista">👇| Vem ser COLLEGER |👇</li>
-                    </ul>
-                    <a href="https://bio.digitalcollege.com.br/"id="bio-link" target="_blank"> <i id="icone-link"></i> bio.digitalcollege.com.br/</a>
+
+
+                <a
+                    href="https://bio.digitalcollege.com.br/"
+                    target="_blank"
+                    class="channel-link"
+                >
+                    bio.digitalcollege.com.br
+                </a>
+
+
+                <div class="channel-buttons">
+
+                    <button class="subscribe-button">
+                        Inscrever-se
+                    </button>
+
                 </div>
+
             </div>
-        </div>
-        </div>
-        <div class="section" id="destaques">
-            <div class="destaque">
-              <img src="imagens/120190.png" alt="destaque 1">
-               <p>Destaque 1</p>
+
+        </section>
+
+
+
+        <!-- MENU DO CANAL -->
+
+        <nav class="channel-nav">
+
+            <a href="#" class="active">
+                Início
+            </a>
+
+            <a href="#">
+                Vídeos
+            </a>
+
+            <a href="#">
+                Shorts
+            </a>
+
+            <a href="#">
+                Ao vivo
+            </a>
+
+            <a href="#">
+                Playlists
+            </a>
+
+            <a href="#">
+                Comunidade
+            </a>
+
+            <button class="nav-search">
+                🔍
+            </button>
+
+        </nav>
+
+
+
+        <!-- VÍDEO EM DESTAQUE -->
+
+        <section class="featured-video">
+
+
+            <div class="featured-thumbnail">
+
+                <img
+                    src="imagens/120200.jpg"
+                    alt="Vídeo destaque"
+                >
+
+                <span class="duration">
+                    10:32
+                </span>
+
             </div>
-            <div class="destaque">
-              <img src="imagens/122281.jpg" alt="">
-               <p>Destaque 2</p>
+
+
+            <div class="featured-description">
+
+                <h2>
+                    Conheça a Digital College
+                </h2>
+
+
+                <p class="video-meta">
+                    15 mil visualizações • há 2 semanas
+                </p>
+
+
+                <p>
+                    Transformando carreiras através da tecnologia,
+                    inteligência artificial e habilidades digitais.
+                </p>
+
             </div>
-            <div class="destaque">
-              <img src="imagens/57786.jpg" alt="">
-               <p>Destaque 3</p>
+
+        </section>
+
+
+
+        <!-- VÍDEOS -->
+
+        <section class="videos-section">
+
+
+            <div class="section-title">
+
+                <h2>Vídeos</h2>
+
+                <a href="#">
+                    ▶ Reproduzir todos
+                </a>
+
             </div>
-            <div class="destaque">
-              <img src="imagens/722102.png" alt="">
-               <p>Destaque 4</p>
+
+
+
+            <div class="videos-grid">
+
+
+                <!-- VIDEO 1 -->
+
+                <article class="video-card">
+
+                    <div class="thumbnail">
+
+                        <img
+                            src="imagens/120190.png"
+                            alt="Vídeo"
+                        >
+
+                        <span class="duration">
+                            8:45
+                        </span>
+
+                    </div>
+
+                    <h3>
+                        Como começar na programação em 2026
+                    </h3>
+
+                    <p>
+                        8,4 mil visualizações • há 5 dias
+                    </p>
+
+                </article>
+
+
+
+                <!-- VIDEO 2 -->
+
+                <article class="video-card">
+
+                    <div class="thumbnail">
+
+                        <img
+                            src="imagens/120200.jpg"
+                            alt="Vídeo"
+                        >
+
+                        <span class="duration">
+                            12:20
+                        </span>
+
+                    </div>
+
+                    <h3>
+                        Inteligência Artificial na prática
+                    </h3>
+
+                    <p>
+                        12 mil visualizações • há 1 semana
+                    </p>
+
+                </article>
+
+
+
+                <!-- VIDEO 3 -->
+
+                <article class="video-card">
+
+                    <div class="thumbnail">
+
+                        <img
+                            src="imagens/122281.jpg"
+                            alt="Vídeo"
+                        >
+
+                        <span class="duration">
+                            15:32
+                        </span>
+
+                    </div>
+
+                    <h3>
+                        Mercado de tecnologia em Fortaleza
+                    </h3>
+
+                    <p>
+                        5,8 mil visualizações • há 10 dias
+                    </p>
+
+                </article>
+
+
+
+                <!-- VIDEO 4 -->
+
+                <article class="video-card">
+
+                    <div class="thumbnail">
+
+                        <img
+                            src="imagens/57786.jpg"
+                            alt="Vídeo"
+                        >
+
+                        <span class="duration">
+                            9:10
+                        </span>
+
+                    </div>
+
+                    <h3>
+                        Como conseguir seu primeiro emprego em TI
+                    </h3>
+
+                    <p>
+                        18 mil visualizações • há 2 semanas
+                    </p>
+
+                </article>
+
+
+
+                <!-- VIDEO 5 -->
+
+                <article class="video-card">
+
+                    <div class="thumbnail">
+
+                        <img
+                            src="imagens/722102.png"
+                            alt="Vídeo"
+                        >
+
+                        <span class="duration">
+                            11:43
+                        </span>
+
+                    </div>
+
+                    <h3>
+                        Aprenda desenvolvimento web
+                    </h3>
+
+                    <p>
+                        7,5 mil visualizações • há 3 semanas
+                    </p>
+
+                </article>
+
+
+
+                <!-- VIDEO 6 -->
+
+                <article class="video-card">
+
+                    <div class="thumbnail">
+
+                        <img
+                            src="imagens/722103.png"
+                            alt="Vídeo"
+                        >
+
+                        <span class="duration">
+                            7:14
+                        </span>
+
+                    </div>
+
+                    <h3>
+                        Conheça nossos alunos
+                    </h3>
+
+                    <p>
+                        4,2 mil visualizações • há 1 mês
+                    </p>
+
+                </article>
+
+
+
+                <!-- VIDEO 7 -->
+
+                <article class="video-card">
+
+                    <div class="thumbnail">
+
+                        <img
+                            src="imagens/919681.jpg"
+                            alt="Vídeo"
+                        >
+
+                        <span class="duration">
+                            16:08
+                        </span>
+
+                    </div>
+
+                    <h3>
+                        Carreira em tecnologia
+                    </h3>
+
+                    <p>
+                        9,7 mil visualizações • há 1 mês
+                    </p>
+
+                </article>
+
+
+
+                <!-- VIDEO 8 -->
+
+                <article class="video-card">
+
+                    <div class="thumbnail">
+
+                        <img
+                            src="imagens/902461.jpg"
+                            alt="Vídeo"
+                        >
+
+                        <span class="duration">
+                            14:37
+                        </span>
+
+                    </div>
+
+                    <h3>
+                        Por que aprender Inteligência Artificial?
+                    </h3>
+
+                    <p>
+                        21 mil visualizações • há 2 meses
+                    </p>
+
+                </article>
+
+
             </div>
-            <div class="destaque">
-              <img src="imagens/722103.png" alt="">
-               <p>Destaque 5</p>
-            </div>
-            <div class="destaque">
-              <img src="imagens/722128.png" alt="">
-               <p>Destaque 6</p>
-            </div>
-            <div class="destaque">
-              <img src="imagens/902461.jpg" alt="">
-               <p>Destaque 7</p>
-            </div>
-            <div class="destaque">
-              <img src="imagens/919681.jpg" alt="">
-               <p>Destaque 8</p>
-            </div>
-            <div class="destaque">
-              <img src="imagens/120190.png" alt="">
-               <p>Destaque 9</p>
-            </div>
-            <div class="destaque">
-              <img src="imagens/57786.jpg" alt="">
-               <p>Destaque 10</p>
-            </div>
-            <div class="destaque">
-              <img src="imagens/722102.png" alt="">
-               <p>Destaque 11</p>
-            </div>
-        </div>
-        <div class="section" id="feed">
-            <div>
-              <img class="post" src="imagens/120190.png" alt="300"></div>
-            <div>
-              <img class="post" src="imagens/120200.jpg" alt="300"></div>
-            <div>
-              <img class="post" src="imagens/122281.jpg" alt="300"></div>
-            <div>
-              <img class="post" src="imagens/57786.jpg" alt="300"></div>
-            <div>
-              <img class="post" src="imagens/722102.png" alt="300"></div>
-            <div>
-              <img class="post" src="imagens/722103.png" alt="300"></div>
-            <div>
-              <img class="post" src="imagens/722103.png" alt="300"></div>
-            <div>
-              <img class="post" src="imagens/919681.jpg" alt="300"></div>
-    </div>
+
+        </section>
+
+
+    </main>
+
 </body>
 </html>
